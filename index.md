@@ -1,6 +1,6 @@
 layout: page
 title: "About Me"
-permalink: https://octocat.github.io/about-me
+permalink: https://octocat.github.io/index
 ---
 ---
 
