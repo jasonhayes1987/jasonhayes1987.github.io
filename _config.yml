@@ -23,8 +23,8 @@ email: jasonhayes1987@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website is meant to showcase my expertise in data science, machine learning
   and artificial intelligence engineering
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" https://jasonhayes1987.github.io
+baseurl: "/index"
+url: "https://jasonhayes1987.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
 
