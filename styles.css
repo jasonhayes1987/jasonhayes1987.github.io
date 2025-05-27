@@ -10,6 +10,10 @@ body {
 .section {
     padding: 60px 0;
 }
+.subtext {
+    color: #b0b0b0;
+    font-size: 0.9rem;
+}
 h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -28,7 +32,3 @@ a {
 a:hover {
     color: #0575e6;
 }
-/* Override text-muted for better contrast on dark backgrounds */
-.text-muted {
-    color: #b0b0b0 !important; /* Lighter gray for better readability */
-    font-size: 0.9rem; /* Slightly smaller for subtext */
