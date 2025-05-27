@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+.hero {
+    background: linear-gradient(to right, #00f260, #0575e6);
+    padding: 80px 0;
+}
+.section {
+    padding: 60px 0;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+h2 {
+    color: #00f260;
+}
+.btn-custom {
+    background-color: #0575e6;
+    color: #fff;
+    padding: 10px 20px;
+}
+a {
+    color: #00f260;
+}
+a:hover {
+    color: #0575e6;
+}
