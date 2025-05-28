@@ -4,22 +4,46 @@ body {
     color: #ffffff;
 }
 .hero {
-    background: linear-gradient(to right, #00f260, #0575e6);
-    padding: 80px 0;
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('phoenix-steel-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Adjust opacity here (0 to 1) */
+    z-index: -1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
 }
 .section {
     padding: 60px 0;
 }
-.subtext {
-    color: #DBDFFF;
-    font-size: 0.9rem;
-}
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 h2 {
     color: #00f260;
+}
+.lead {
+    font-size: 1.5rem;
 }
 .btn-custom {
     background-color: #0575e6;
@@ -31,4 +55,37 @@ a {
 }
 a:hover {
     color: #0575e6;
+}
+footer {
+    background-color: #1a1a1a;
+}
+.text-muted {
+    color: #b0b0b0 !important;
+    font-size: 0.9rem;
+}
+.color-preview {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 2px solid #00f260;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+.hex-code {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+.logo-nav {
+    max-height: 40px;
+    width: auto;
 }
