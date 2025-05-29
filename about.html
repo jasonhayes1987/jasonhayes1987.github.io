@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - PhoenX Robotics</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="/">PhoenX Robotics</a>
+            <a class="navbar-brand logo-brand" href="/">
+                <img src="phoenx2.png" alt="PhoenX Robotics Logo" class="phoenix-logo">
+                <span class="brand-text">PhoenX Robotics</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,23 +27,61 @@
             </div>
         </div>
     </nav>
-    <section class="section">
+    <section id="about-me" class="about-me-section">
         <div class="container">
-            <h2>About Me</h2>
-            <p>I’m Jason, a Python programmer and RL enthusiast building tools to accelerate AI research. My work focuses on reinforcement learning, with expertise in frameworks like TensorFlow and PyTorch.</p>
-            <h3>Skills</h3>
-            <ul>
-                <li>Python</li>
-                <li>Reinforcement Learning (RL) algorithm design</li>
-                <li>Frameworks: TensorFlow, PyTorch</li>
-                <li>CUDA for GPU utilization</li>
-                <li>Containerization with Docker</li>
-                <li>Version control with Git/GitHub</li>
-            </ul>
-            <h3>Other Projects</h3>
-            <p><strong>Project 1</strong>: A Neural Network from Scratch (Inc. Convolutions) <a href="https://github.com/yourusername/project1">View on GitHub</a></p>
-            <h3>Contact</h3>
-            <p>Connect with me on <a href="https://linkedin.com/in/jason-hayes-24b52b83">LinkedIn</a> or <a href="https://github.com/jasonhayes1987">GitHub</a>.</p>
+            <h2 class="section-heading">About Me</h2>
+            <div class="divider"></div>
+            <div class="about-me-content">
+                <img src="me.png" alt="Jason's Headshot" class="about-me-image">
+                <div class="about-me-text">
+                    <h3 class="subsection-heading">About Me</h3>
+                    <p class="subsection-text">I'm Jason, a passionate AI enthusiast and developer specializing in Reinforcement Learning. I created PhoenX RL to rapidly prototype and build intelligent agents faster.</p>
+
+                    <h3 class="subsection-heading">Skills</h3>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <i class="fab fa-python skill-icon"></i>
+                            <span>Python</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fas fa-brain skill-icon"></i>
+                            <span>Reinforcement Learning</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fas fa-fire skill-icon"></i>
+                            <span>PyTorch</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fab fa-docker skill-icon"></i>
+                            <span>Docker</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fas fa-bolt skill-icon"></i>
+                            <span>Ray</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fas fa-chart-line skill-icon"></i>
+                            <span>W&B</span>
+                        </li>
+                    </ul>
+
+                    <h3 class="subsection-heading">Projects</h3>
+                    <a href="https://github.com/jasonhayes1987/RL_Agents" target="_blank" class="project-card">
+                        <i class="fas fa-brain project-icon"></i>
+                        <p class="project-title">PhoenX RL</p>
+                    </a>
+                    <a href="https://github.com/jasonhayes1987/NeuralNet" target="_blank" class="project-card">
+                        <i class="fas fa-brain project-icon"></i>
+                        <p class="project-title">A Neural Network from Scratch</p>
+                    </a>
+
+                    <div class="button-group">
+                        <a href="https://linkedin.com/in/jason-hayes-24b52b83" target="_blank" class="cta-button">Connect on LinkedIn</a>
+                        <!-- <a href="mailto:jasonhayes1987@gmail.com" class="cta-button">Contact Me</a> -->
+                        <a href="https://github.com/jasonhayes1987" target="_blank" class="cta-button">View GitHub</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
